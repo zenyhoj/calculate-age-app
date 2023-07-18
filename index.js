@@ -26,7 +26,7 @@ function getAge(birthdateValue) {
 
   if (
     month < 0 ||
-    (month === 0 && currentDate.getDay() - birthdayVal.getDay())
+    (month === 0 && currentDate.getDate() - birthdayVal.getDate())
   ) {
     age--;
   }
