@@ -1,10 +1,10 @@
 // create an event listener
 const btn = document.getElementById("btn");
+//input value is assigned in birthdate
 const birthdate = document.getElementById("birthdate");
 const result = document.getElementById("result");
 
 function calculateAge() {
-  //get the input value
   const birthdateValue = birthdate.value;
   if (birthdateValue == "") {
     alert("Please enter your birthdate");
